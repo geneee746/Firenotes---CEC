@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-database.js"></script>
+
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>firenotes!!!!!</h1>
+    <form id- "my-form">
+      <input id="note imput" name="not imput" placeholder="hey whatcha thinking?"/>
+      <button type="submit">+ <Add></button>
+   </form>
+   <table id="notes container">
+   </table>
+
+    <script
+      // Firebase-CEC>'s Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      var firebaseConfig = {
+       apiKey: "AIzaSyD9EasUsPTN3W1j3GagXgBJ-R2oe4QaPDc",
+        authDomain: "fir-cec-4ea2a.firebaseapp.com",
+        databaseURL: "https://fir-cec-4ea2a-default-rtdb.firebaseio.com",
+        projectId: "fir-cec-4ea2a",
+        storageBucket: "fir-cec-4ea2a.appspot.com",
+       messagingSenderId: "789185974559",
+       appId: "1:789185974559:web:947a2a0ca701aefdbd202a",
+       measurementId: "G-PB8VP6VH47"
+      };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+    <script src="script.js"></script>
+  </body>
+</html>
